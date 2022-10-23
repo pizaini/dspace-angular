@@ -15,7 +15,9 @@ import { ThemeConfig } from './theme.model';
  */
 const extendEnvironmentWithAppConfig = (env: any, appConfig: AppConfig): void => {
   mergeConfig(env, appConfig);
-  console.log(`Environment extended with app config`);
+  if (!env.production){
+    console.log(`Environment extended with app config`);
+  }
 };
 
 /**

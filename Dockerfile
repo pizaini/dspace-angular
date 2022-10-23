@@ -10,8 +10,10 @@ EXPOSE 4000
 # See, for example https://github.com/yarnpkg/yarn/issues/5540
 RUN yarn install --network-timeout 300000
 
-# On startup, run in DEVELOPMENT mode (this defaults to live reloading enabled, etc).
+#  Build production
+RUN yarn run build:prod
+
 # Listen / accept connections from all IP addresses.
 # NOTE: At this time it is only possible to run Docker container in Production mode
 # if you have a public IP. See https://github.com/DSpace/dspace-angular/issues/1485
-CMD yarn start --host 0.0.0.0
+CMD yarn run serve:ssr --host 0.0.0.0
