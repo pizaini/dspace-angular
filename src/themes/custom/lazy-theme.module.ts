@@ -168,8 +168,6 @@ const DECLARATIONS = [
   BrowseByMetadataPageComponent,
   BrowseByDatePageComponent,
   BrowseByTitlePageComponent,
-
-
 ];
 
 @NgModule({
