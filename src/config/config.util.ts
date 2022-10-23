@@ -16,7 +16,9 @@ import { BASE_THEME_NAME } from '../app/shared/theme-support/theme.constants';
  */
 const extendEnvironmentWithAppConfig = (env: any, appConfig: AppConfig): void => {
   mergeConfig(env, appConfig);
-  console.log(`Environment extended with app config`);
+  if (!env.production){
+    console.log(`Environment extended with app config`);
+  }
 };
 
 /**
