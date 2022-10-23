@@ -5,7 +5,7 @@ name: Docker images
 # Also run for PRs to ensure PR doesn't break Docker build process
 # NOTE: uses "reusable-docker-build.yml" in DSpace/DSpace to actually build each of the Docker images
 # https://github.com/DSpace/DSpace/blob/dspace-7_x/.github/workflows/reusable-docker-build.yml
-# 
+#
 on:
   push:
     branches:
