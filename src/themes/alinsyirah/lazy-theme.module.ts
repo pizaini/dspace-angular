@@ -57,10 +57,12 @@ import { ComcolModule } from '../../app/shared/comcol/comcol.module';
 import { RootModule } from '../../app/root.module';
 import { PrivacyComponent } from './app/info/privacy/privacy.component';
 import { FeedbackComponent } from './app/info/feedback/feedback.component';
+import { LoginPageComponent } from './app/login-page/login-page.component';
 
 const DECLARATIONS = [
   FeedbackComponent,
-  PrivacyComponent
+  PrivacyComponent,
+  LoginPageComponent
 ];
 
 @NgModule({
