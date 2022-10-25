@@ -1,11 +1,11 @@
 name: Build and push to docker hub
 on:
   push:
-    branches: [ "repository" ]
     tags:
       - '*'
 jobs:
   publish_docker_images:
+    if: ${{ github.ref == 'refs/heads/repository' }}
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
