@@ -1,6 +1,5 @@
 rest:
   ssl: true
-  #  host: repository-new.stikes-alinsyirah.ac.id
-  host: api7.dspace.org
+  host: sandbox.dspace.org
   port: 443
   nameSpace: /server
