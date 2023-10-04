@@ -1,6 +1,5 @@
-import {Component, Optional} from '@angular/core';
-import {FooterComponent as BaseComponent} from '../../../../app/footer/footer.component';
-import {KlaroService} from '../../../../app/shared/cookies/klaro.service';
+import { Component } from '@angular/core';
+import { FooterComponent as BaseComponent } from '../../../../app/footer/footer.component';
 
 @Component({
   selector: 'ds-footer',

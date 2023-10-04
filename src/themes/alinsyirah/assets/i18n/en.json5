@@ -18,5 +18,5 @@
   "register-page.registration.info": "Register an account to subscribe to collections for email updates, and submit new items to Repository.",
   "search.form.scope.all": "All of Repository",
   "submission.import-external.page.hint": "Enter a query above to find items from the web to import in to Repository.",
-  "submission.import-external.back-to-my-dspace": "Back to My Repository"
+  "submission.import-external.back-to-my-dspace": "Back to My Repository",
 }
