@@ -55,8 +55,16 @@ import {
 } from '../../app/shared/resource-policies/resource-policies.module';
 import { ComcolModule } from '../../app/shared/comcol/comcol.module';
 import { RootModule } from '../../app/root.module';
+import { PrivacyComponent } from './app/info/privacy/privacy.component';
+import { FeedbackComponent } from './app/info/feedback/feedback.component';
+import { LoginPageComponent } from './app/login-page/login-page.component';
+import { FeedbackFormComponent } from './app/info/feedback/feedback-form/feedback-form.component';
 
 const DECLARATIONS = [
+  FeedbackComponent,
+  PrivacyComponent,
+  FeedbackFormComponent,
+  LoginPageComponent
 ];
 
 @NgModule({
@@ -106,7 +114,7 @@ const DECLARATIONS = [
     SearchModule,
     FormsModule,
     ResourcePoliciesModule,
-    ComcolModule,
+    ComcolModule
   ],
   declarations: DECLARATIONS,
 })
